@@ -12,6 +12,10 @@ def showProducts
     end
 end
 
+def buyProducts
+    
+end
+
 def imported(price, product)
     puts "Is it imported"
     
@@ -58,9 +62,9 @@ def addProduct
         price = calculatePrice(product_price, 0)
         imported(price, product)
         # product.push(price)
-    when '3'
-        price = calculatePrice(product_price, 0.15)
-        product.push(price)     
+    # when '3'
+    #     price = calculatePrice(product_price, 0.15)
+    #     product.push(price)     
     else
         puts "Select a valid option"
         addProduct
@@ -126,7 +130,7 @@ def main
         owner
     when '2'
         customer
-        puts "Functionality is in progress"
+        # puts "Functionality is in progress"
     when '0'
         puts "Thanks for being with us"
     else
