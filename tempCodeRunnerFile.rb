@@ -1,7 +1,5 @@
-temp = ""
-    # name.map do |n|
-    #     if (n!= "imported")
-    #         temp +=temp
-    #     end
+    # if array.include? "imported"
+    #     imported = true
+    # else
+    #     imported = false
     # end
-    # return temp
